@@ -1,6 +1,7 @@
 package test
 
 import (
+	"fmt"
 	"huobi_futures_Golang/sdk/linearswap/ws"
 	"huobi_futures_Golang/sdk/linearswap/ws/response/market"
 	"testing"
@@ -14,6 +15,8 @@ func init() {
 }
 
 func TestWSMarketClient_SubKLine(t *testing.T) {
+	fmt.Println("111")
+	return
 	wsmkClient.SubKLine("BTC-USDT", "15min", func(m *market.SubKLineResponse) {
 		t.Log(*m)
 	}, "")

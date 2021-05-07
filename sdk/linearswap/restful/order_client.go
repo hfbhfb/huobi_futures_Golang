@@ -1,4 +1,4 @@
-﻿package restful
+package restful
 
 import (
 	"encoding/json"

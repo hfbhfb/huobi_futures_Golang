@@ -1,4 +1,4 @@
-﻿package index
+package index
 
 type SubIndexKLineResponse struct {
 	Ch string `json:"ch"`

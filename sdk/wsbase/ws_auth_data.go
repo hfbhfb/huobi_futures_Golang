@@ -1,6 +1,7 @@
 package wsbase
 
 type WSAuthData struct {
+
 	Op string `json:"op"`
 
 	AtType string `json:"type"`

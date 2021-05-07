@@ -1,9 +1,10 @@
-﻿package ws
+package ws
 
 import (
 	"container/list"
 	"encoding/json"
 	"fmt"
+	"github.com/gorilla/websocket"
 	"huobi_futures_Golang/sdk/linearswap"
 	"huobi_futures_Golang/sdk/log"
 	"huobi_futures_Golang/sdk/reqbuilder"
@@ -11,8 +12,6 @@ import (
 	"reflect"
 	"strings"
 	"time"
-
-	"github.com/gorilla/websocket"
 )
 
 type MethonInfo struct {
