@@ -1,6 +1,7 @@
 package test
 
 import (
+	"encoding/json"
 	"huobi_futures_Golang/sdk/linearswap/restful"
 	"huobi_futures_Golang/sdk/linearswap/restful/response/account"
 	"testing"
@@ -23,7 +24,8 @@ func TestAccountClient_GetBalanceValuationAsync(t *testing.T) {
 		t.Logf("%d:%s", x.ErrorCode, x.ErrorMessage)
 		t.Fail()
 	} else {
-		t.Logf("%#v", x)
+		byt, _ := json.Marshal(x)
+		t.Logf("%v", string(byt))
 		t.Log(x)
 	}
 }

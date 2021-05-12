@@ -1,7 +1,7 @@
 {
     "Host": "api.btcgateway.pro",
-    "AccessKey": "3ce0bf28-c7a44272-343383ed-bgbfh5tv3f",
-    "SecretKey": "f732cf79-27557906-9d567a60-fc84b",
-    "AccountId": 10000000,
-    "SubUid": 10000000
+    "AccessKey": "7e9d030b-43bdbb5e-bgbfh5tv3f-6c4af",
+    "SecretKey": "91bc4040-37cf39c4-a021983b-8a332",
+    "AccountId": 0,
+    "SubUid": 0
   }
